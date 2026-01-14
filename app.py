@@ -40,7 +40,7 @@ app.config['MYSQL_CURSORCLASS'] = 'DictCursor' # Agar hasilnya berupa JSON
 app.config['MAIL_SERVER'] = os.environ.get('MAIL_SERVER', 'smtp.gmail.com')
 app.config['MAIL_PORT'] = int(os.environ.get('MAIL_PORT', 465))
 app.config['MAIL_USERNAME'] = os.environ.get('MAIL_USERNAME', 'smartwastekids@gmail.com') 
-app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD', '') # Gunakan App Password di production
+app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD', 'ghlq gfai njrm eymm') # Gunakan App Password di production
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 
